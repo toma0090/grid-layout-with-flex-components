@@ -19,7 +19,6 @@ body {
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-    padding-bottom: 0.5rem;
   }
   
   
@@ -30,6 +29,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
+    margin-top: auto;
   }
   
   
@@ -43,7 +43,7 @@ body {
   .emojis {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
   }
   
